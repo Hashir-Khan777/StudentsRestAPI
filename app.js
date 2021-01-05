@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const databaseConnection = require("./databaseConnection");
+require("./databaseConnection");
 const APIStudents = require("./model");
 
 const app = express();
